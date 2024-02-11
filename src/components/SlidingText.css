@@ -1,0 +1,33 @@
+.sliding-text-container {
+  font-size: 30px; /* Set text size to 30px */
+  color: yellow;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .sliding-text{
+    font-size: 30px;
+    color: #dee176;
+  }
+  .sliding-text {
+    font-size: 30px; /* Set text size to 30px */
+    color: yellow;
+    animation: slide 10s linear infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .marquee {
+    white-space: nowrap;
+    display: inline-block;
+  }
+  .ye{
+    font-size: 30px; /* Set text size to 30px */
+    color: yellow;
+  }
+  

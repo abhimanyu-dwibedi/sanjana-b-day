@@ -1,0 +1,9 @@
+/* src/components/Balloon.css */
+.balloon {
+    background-color: #ff69b4; /* or any other color */
+    width: 30px;
+    height: 50px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: absolute;
+  }
+  

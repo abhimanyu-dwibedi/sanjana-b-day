@@ -1,0 +1,9 @@
+/* src/components/Carousel.css */
+.carousel-container {
+    margin: 20px auto;
+    max-width: 80%;
+  }
+.sanjanaImg{
+  height: 500px;
+  width: 50px;
+}

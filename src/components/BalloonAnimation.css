@@ -1,0 +1,13 @@
+/* src/components/BalloonAnimation.css */
+.balloon-animation {
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    background-color: #da1b60; /* Balloon color */
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  

@@ -1,0 +1,29 @@
+.image-transition-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+  }
+  
+  .image {
+    position: absolute;
+     top: 0;
+    left: 0; 
+    /* height: 500px;
+    width: 500px; */
+     opacity: 0;  
+    transition: opacity 0.5s ease;
+  }
+  
+  .image.visible {
+    opacity: 1;
+  }
+  
+  .image.hidden {
+    opacity: 0;
+  }
+  .sanjanaImg{
+    height:400px;
+    width: 320px;
+  }
