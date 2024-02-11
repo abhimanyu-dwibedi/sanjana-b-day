@@ -1,6 +1,9 @@
 /* src/App.css */
 .App {
   overflow: hidden;
+  padding: 40px;
+  justify-items: center;
+  align-items: center;
 }
 
 .content-container {

@@ -6,6 +6,7 @@ import "./App.css";
 import Balloon from "./components/Balloon";
 import ImageTransition from "./components/ImageTransition";
 // import useWindowSize from "react-use/lib/useWindowSize";
+import BackgroundAudio from "./components/BackgroundAudio";
 import Confetti, { ReactConfetti } from "react-confetti";
 import SlidingText from "./components/SlidingText";
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <div className='App'>
       <Confetti width={Daminson.width} height={Daminson.height} />
       <BackgroundAnimation />
+      <BackgroundAudio />
       <div className='content-container'>
         <h1 className='birthday-message'>Happy Birthday Sanjana urs!</h1>
         <h2 className='birthday-message'>산자나 우르스의 생일을 축하해요!</h2>
